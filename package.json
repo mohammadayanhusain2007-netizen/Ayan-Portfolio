@@ -1,0 +1,37 @@
+{
+  "name": "mohammad-ayan-husain-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Mohammad Ayan Husain - B.Tech IT Student, Full-Stack Developer & UI/UX Designer",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -o",
+    "build": "echo 'This is a static website - no build step needed'",
+    "deploy": "echo 'See README.md for deployment instructions'",
+    "lint": "eslint js/script.js",
+    "format": "prettier --write '**/*.{html,css,js}'"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "full-stack",
+    "ui-ux",
+    "b.tech",
+    "responsive",
+    "modern"
+  ],
+  "author": "Mohammad Ayan Husain",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/portfolio/issues"
+  },
+  "homepage": "https://yourdomain.com"
+}

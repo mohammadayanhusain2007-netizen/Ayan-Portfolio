@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohammad Ayan Husain - B.Tech IT Student, Full-Stack Developer & UI/UX Designer. Explore my portfolio, projects, and achievements.">
+    <meta name="keywords" content="Mohammad Ayan Husain, portfolio, full-stack developer, UI/UX designer, B.Tech IT, web development">
+    <meta name="author" content="Mohammad Ayan Husain">
+    <meta name="theme-color" content="#667eea">
+    <meta property="og:title" content="Mohammad Ayan Husain - Full-Stack Developer & UI/UX Designer">
+    <meta property="og:description" content="Explore my professional portfolio showcasing projects, skills, and achievements.">
+    <meta property="og:type" content="website">
+    
+    <title>Mohammad Ayan Husain - Full-Stack Developer & UI/UX Designer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%23667eea'>M</text></svg>">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="scroll-link">
+                    <span class="logo-icon">M</span>
+                    <span class="logo-text">AH</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="scroll-link">Home</a></li>
+                <li><a href="#about" class="scroll-link">About</a></li>
+                <li><a href="#education" class="scroll-link">Education</a></li>
+                <li><a href="#skills" class="scroll-link">Skills</a></li>
+                <li><a href="#projects" class="scroll-link">Projects</a></li>
+                <li><a href="#achievements" class="scroll-link">Achievements</a></li>
+                <li><a href="#contact" class="scroll-link">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">Mohammad Ayan Husain</span></h1>
+                <p class="hero-subtitle">Full-Stack Developer & UI/UX Designer</p>
+                <p class="hero-description">B.Tech IT Student crafting beautiful, functional digital experiences. Passionate about web development, design, and building innovative solutions.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary scroll-link">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary scroll-link">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="avatarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="100" cy="100" r="100" fill="url(#avatarGradient)" opacity="0.2"/>
+                        <circle cx="100" cy="100" r="90" fill="none" stroke="url(#avatarGradient)" stroke-width="2"/>
+                        <text x="100" y="120" font-size="80" font-weight="bold" text-anchor="middle" fill="#667eea">M</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" id="scrollIndicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate B.Tech student in Information Technology with a strong foundation in full-stack web development and UI/UX design. I love transforming complex problems into elegant, user-friendly digital solutions.</p>
+                    <p>With experience in modern web technologies and a keen eye for design, I focus on creating responsive, accessible, and engaging web applications that users love. I'm always eager to learn new technologies and take on challenging projects.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <h3>Frontend</h3>
+                            <p>React, HTML5, CSS3, JavaScript</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Backend</h3>
+                            <p>Node.js, Express, Python, Database Design</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Design</h3>
+                            <p>UI/UX, Figma, Responsive Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology (B.Tech)</h3>
+                        <p class="institution">Information Technology</p>
+                        <p class="details">Your University Name • Expected Graduation: 2026</p>
+                        <p class="description">Pursuing a comprehensive curriculum covering software development, database management, web technologies, and software engineering principles.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>12th Grade / Senior Secondary</h3>
+                        <p class="institution">Your School Name</p>
+                        <p class="details">Graduation: 20XX</p>
+                        <p class="description">Strong foundation in Mathematics, Physics, and Computer Science with focus on practical applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>UI/UX & Design</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">User Research</span>
+                        <span class="skill-tag">Wireframing</span>
+                        <span class="skill-tag">Prototyping</span>
+                        <span class="skill-tag">Visual Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Team Collaboration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100" height="100" fill="#667eea" opacity="0.1"/>
+                                <rect x="10" y="10" width="80" height="20" fill="#667eea"/>
+                                <rect x="10" y="35" width="80" height="10" fill="#667eea" opacity="0.6"/>
+                                <rect x="10" y="50" width="80" height="10" fill="#667eea" opacity="0.6"/>
+                                <rect x="10" y="65" width="80" height="10" fill="#667eea" opacity="0.6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include product catalog, shopping cart, and secure payment integration.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="link-btn">View Project</a>
+                        <a href="#" class="link-btn-secondary">Source Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100" height="100" fill="#764ba2" opacity="0.1"/>
+                                <circle cx="30" cy="30" r="10" fill="#764ba2"/>
+                                <circle cx="70" cy="30" r="10" fill="#764ba2" opacity="0.6"/>
+                                <circle cx="50" cy="60" r="10" fill="#764ba2" opacity="0.6"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Task Management App</h3>
+                    <p>A productivity app built with React and Firebase. Users can create, organize, and track tasks with real-time synchronization and beautiful UI.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">CSS3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="link-btn">View Project</a>
+                        <a href="#" class="link-btn-secondary">Source Code</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="100" height="100" fill="#f093fb" opacity="0.1"/>
+                                <path d="M 10 50 Q 25 30 40 50 T 70 50 T 100 50" stroke="#f093fb" stroke-width="3" fill="none"/>
+                                <line x1="50" y1="80" x2="50" y2="20" stroke="#f093fb" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Weather Dashboard</h3>
+                    <p>Interactive weather application using OpenWeather API. Displays current weather, forecasts, and beautiful data visualizations with responsive design.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">API</span>
+                        <span class="tag">HTML5/CSS3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="link-btn">View Project</a>
+                        <a href="#" class="link-btn-secondary">Source Code</a>
+                    </div>
+                </article>
+            </div>
+            <div class="projects-cta">
+                <p>Want to see more projects?</p>
+                <a href="https://github.com" target="_blank" class="btn btn-secondary">Visit GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements & Certifications Section -->
+    <section id="achievements" class="section achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">📜</div>
+                    <h3>Web Development Certification</h3>
+                    <p class="issuer">Issued by: Coursera</p>
+                    <p class="date">2024</p>
+                    <p>Completed comprehensive course on modern web development with focus on React and Node.js</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Hackathon Winner</h3>
+                    <p class="issuer">Event: Code Sprint 2024</p>
+                    <p class="date">2024</p>
+                    <p>Won first place for developing an innovative IoT-based smart home application</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">⭐</div>
+                    <h3>Full-Stack Developer Badge</h3>
+                    <p class="issuer">Issued by: HackerRank</p>
+                    <p class="date">2024</p>
+                    <p>Earned recognition for solving complex problems across frontend and backend technologies</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">💡</div>
+                    <h3>UI/UX Design Specialization</h3>
+                    <p class="issuer">Issued by: Google UX Design</p>
+                    <p class="date">2024</p>
+                    <p>Completed specialized course on user experience design and research methodologies</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🎓</div>
+                    <h3>CGPA Excellence</h3>
+                    <p class="issuer">Your University</p>
+                    <p class="date">Ongoing</p>
+                    <p>Maintaining excellent academic performance with consistent high CGPA</p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">🚀</div>
+                    <h3>Open Source Contributor</h3>
+                    <p class="issuer">GitHub</p>
+                    <p class="date">2024</p>
+                    <p>Active contributor to multiple open-source projects with merged pull requests</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <p class="resume-description">Download my comprehensive resume to learn more about my experience, skills, and achievements.</p>
+                <a href="assets/documents/resume.pdf" download class="btn btn-primary" id="resumeDownload">
+                    <span>📥 Download Resume</span>
+                </a>
+                <p class="resume-note">Don't have a resume file? Create one and place it in assets/documents/resume.pdf</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Let's Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-block">
+                        <h3>📧 Email</h3>
+                        <a href="mailto:your.email@example.com">your.email@example.com</a>
+                    </div>
+                    <div class="info-block">
+                        <h3>📱 Phone</h3>
+                        <a href="tel:+919999999999">+91 9999 999 999</a>
+                    </div>
+                    <div class="info-block">
+                        <h3>📍 Location</h3>
+                        <p>Your City, Country</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-icon" title="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-icon" title="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.735-2.004 1.446-.103.25-.129.599-.129.948v5.411h-3.554v-11h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 9.433c-1.144 0-2.063-.931-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.134-.924 2.065-2.064 2.065zm1.782 10.019H3.555V8.456h3.564v11zm15.960-5.974c0-3.08-2.032-5.095-5.075-5.095-2.337 0-3.696 1.285-4.322 2.517h-.066V8.456h-3.564v11h3.564v-5.569c0-1.327.476-2.235 1.985-2.235 1.08 0 1.722.734 2.004 1.446.102.251.129.599.129.948v5.41h3.545z"/></svg>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-icon" title="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.953 4.57a10 10 0 002.856-3.915 9.958 9.958 0 01-2.836.856 4.958 4.958 0 002.165-2.573c-.951.564-2.005.974-3.127 1.195a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required aria-label="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required aria-label="Your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required aria-label="Message subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required aria-label="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-note">Note: This form is for demonstration. Configure your email service or backend to process submissions.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Mohammad Ayan Husain. All rights reserved.</p>
+                <p>Built with HTML, CSS & JavaScript | Responsive Design | SEO Optimized</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home" class="scroll-link">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

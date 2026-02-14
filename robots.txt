@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /assets/documents/
+
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Delay for bots to prevent server overload
+Crawl-delay: 1
